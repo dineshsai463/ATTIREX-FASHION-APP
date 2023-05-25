@@ -54,27 +54,25 @@ function Footer() {
             <h2 className="footer-heading">Follow Us</h2>
             <ul className="social-list">
               <li>
-                <Link target="_blank" to="https://github.com/chhakuli123">
+                <Link >
                   <GitHubIcon className="nav-icon" />
                 </Link>
               </li>
               <li>
-                <Link target="_blank" to="https://twitter.com/ChhakuliZingare">
+                <Link >
                   <TwitterIcon className="nav-icon" />
                 </Link>
               </li>
               <li>
                 <Link
-                  target="_blank"
-                  to="https://www.instagram.com/chhakuli_zingare"
+                
                 >
                   <InstagramIcon className="nav-icon" />
                 </Link>
               </li>
               <li>
                 <Link
-                  target="_blank"
-                  to="https://www.linkedin.com/in/chhakuli-zingare-322986234"
+                
                 >
                   <LinkedInIcon className="nav-icon" />
                 </Link>
@@ -84,42 +82,38 @@ function Footer() {
         </div>
         <div className="desk-footer-bottom">
           <p>
-            &copy; 2023 Ecommerce Inc. All rights reserved By Chhakuli Zingare
+            &copy; 2023 Ecommerce Inc. All rights reserved By Dinesh sai
           </p>
         </div>
       </footer>
       {/* ------------Mobile footer------------------- */}
       <footer className="mobile-footer">
         <p className="footer-header">
-          Made with <span className="footer-logo">{`</>`}</span> by Chhakuli
+          Made with <span className="footer-logo">{`</>`}</span> by Dinesh sai
           Zingare
         </p>
         <div className="social-icons-container">
           <Link
             className="social-icons"
-            target="_blank"
-            to="https://github.com/chhakuli123"
+           
           >
             <GitHubIcon className="social-icon" />
           </Link>
           <Link
             className="social-icons"
-            target="_blank"
-            to="https://twitter.com/ChhakuliZingare"
+           
           >
             <TwitterIcon className="social-icon" />
           </Link>
           <Link
             className="social-icons"
-            target="_blank"
-            to="https://www.instagram.com/chhakuli_zingare"
+           
           >
             <InstagramIcon className="social-icon" />
           </Link>
           <Link
             className="social-icons"
-            target="_blank"
-            to="https://www.linkedin.com/in/chhakuli-zingare-322986234"
+           
           >
             <LinkedInIcon className="social-icon" />
           </Link>
